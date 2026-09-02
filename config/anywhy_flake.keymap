@@ -50,6 +50,16 @@
             bindings = <&kp TAB>;
             key-positions = <13 14>;
         };
+
+        Combo_Esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <25 26>;
+        };
+
+        Combo_Del {
+            bindings = <&kp DEL>;
+            key-positions = <27 28>;
+        };
     };
 
     macros {
@@ -179,8 +189,8 @@
             bindings = <
 &kp F11   &kp F1          &kp F2            &kp F3        &kp F4        &kp F5           &kp F6     &kp F7         &kp F8            &kp F9             &kp F10          &kp PRINTSCREEN
 &kp F12   &kp ESC         &kp BACKSPACE     &kp TAB       &kp ENTER     &kp DEL          &kp GRAVE  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp BACKSPACE
-&kp HOME  &kp LEFT_ARROW  &kp UP_ARROW      &kp DOWN      &kp RIGHT     &kp PAGE_UP      &kp HOME   &kp LEFT       &kp UP_ARROW      &kp DOWN           &kp RIGHT        &kp PAGE_UP
-&kp END   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp PAGE_DOWN    &kp END    &kp RIGHT_GUI  &kp RIGHT_ALT     &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp PAGE_DOWN
+&kp HOME  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp PAGE_UP      &kp HOME   &kp RIGHT_GUI  &kp RIGHT_ALT     &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp PAGE_UP
+&kp END   &kp LEFT        &kp UP_ARROW      &kp DOWN      &kp RIGHT     &kp PAGE_DOWN    &kp END    &kp LEFT       &kp UP_ARROW      &kp DOWN           &kp RIGHT        &kp PAGE_DOWN
           &trans          &trans            &trans        &trans        &none            &none      &trans         &trans            &trans             &trans
             >;
         };
