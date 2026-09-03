@@ -63,6 +63,13 @@
             timeout-ms = <35>;
             require-prior-idle-ms = <125>;
         };
+
+        Combo_Tab {
+            bindings = <&kp TAB>;
+            key-positions = <27 28>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <125>;
+        };
     };
 
     macros {
