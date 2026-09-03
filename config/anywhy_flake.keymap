@@ -39,21 +39,29 @@
         Combo_Backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <125>;
         };
 
         Combo_Enter {
             bindings = <&kp ENTER>;
             key-positions = <32 33>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <125>;
         };
 
         Combo_Del {
             bindings = <&kp DELETE>;
             key-positions = <19 20>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <125>;
         };
 
         Combo_Esc {
             bindings = <&kp ESCAPE>;
             key-positions = <13 14>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <125>;
         };
     };
 
