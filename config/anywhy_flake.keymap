@@ -55,11 +55,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <13 14>;
         };
-
-        Combo_Tab {
-            bindings = <&kp TAB>;
-            key-positions = <26 25>;
-        };
     };
 
     macros {
