@@ -30,12 +30,6 @@
             layers = <4>;
         };
 
-        grave {
-            bindings = <&kp GRAVE>;
-            key-positions = <13 25>;
-            layers = <3>;
-        };
-
         Combo_Backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>;
