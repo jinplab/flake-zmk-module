@@ -65,11 +65,16 @@
             require-prior-idle-ms = <125>;
         };
 
-        Combo_Up {
-            bindings = <&kp UP_ARROW>;
+        Combo_Down {
+            bindings = <&kp DOWN>;
             key-positions = <57 56>;
             timeout-ms = <30>;
             require-prior-idle-ms = <125>;
+        };
+
+        Combo_Up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <45 44>;
         };
     };
 
