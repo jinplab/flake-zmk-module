@@ -75,6 +75,8 @@
         Combo_Up {
             bindings = <&kp UP_ARROW>;
             key-positions = <45 44>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <125>;
         };
     };
 
