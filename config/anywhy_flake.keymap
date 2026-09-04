@@ -192,7 +192,7 @@
 &kp TAB    &kp Q              &kp W                &kp E            &kp R            &kp T     &kp Y   &kp U             &kp I             &kp O                 &kp P                  &kp BSPC
 &kp LCTRL  &HML LEFT_SHIFT A  &HML LEFT_CONTROL S  &HML LEFT_ALT D  &HML LEFT_GUI F  &kp G     &kp H   &HMR RIGHT_GUI J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HMR RIGHT_SHIFT SEMI  &kp APOS
 &kp LSHFT  &kp Z              &kp X                &kp C            &kp V            &kp B     &kp N   &kp M             &kp COMMA         &kp PERIOD            &kp FSLH               &kp RSHFT
-           &kp LGUI           &kp LEFT_CONTROL     &kp LEFT_ALT     &kp ENTER        &mo 1     &mo 2   &kp SPACE         &kp LGUI          &kp LEFT              &kp RIGHT
+           &kp LGUI           &kp LEFT_CONTROL     &kp LEFT_ALT     &kp SPACE        &mo 1     &mo 2   &kp SPACE         &kp LGUI          &kp LEFT              &kp RIGHT
             >;
         };
 
