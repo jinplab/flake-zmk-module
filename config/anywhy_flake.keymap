@@ -64,6 +64,13 @@
             timeout-ms = <35>;
             require-prior-idle-ms = <125>;
         };
+
+        Combo_Up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <57 56>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <125>;
+        };
     };
 
     macros {
