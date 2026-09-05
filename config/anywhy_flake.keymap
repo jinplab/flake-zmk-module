@@ -19,7 +19,7 @@
         };
 
         enter_gaming {
-            bindings = <&sl 3>;
+            bindings = <&sl 4>;
             key-positions = <26 15 28>;
             layers = <2>;
         };
@@ -27,7 +27,7 @@
         leave_gaming {
             bindings = <&sl 0>;
             key-positions = <31 20 33>;
-            layers = <4>;
+            layers = <5>;
         };
 
         Combo_Backspace {
@@ -75,6 +75,13 @@
         Combo_Up {
             bindings = <&kp UP_ARROW>;
             key-positions = <45 44>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <125>;
+        };
+
+        Toggle_GamingLayer {
+            bindings = <&sl 3>;
+            key-positions = <52 53>;
             timeout-ms = <30>;
             require-prior-idle-ms = <125>;
         };
@@ -199,11 +206,11 @@
 &kp TAB    &kp Q              &kp W                &kp E            &kp R            &kp T     &kp Y   &kp U             &kp I             &kp O                 &kp P                  &kp BSPC
 &kp LCTRL  &HML LEFT_SHIFT A  &HML LEFT_CONTROL S  &HML LEFT_ALT D  &HML LEFT_GUI F  &kp G     &kp H   &HMR RIGHT_GUI J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HMR RIGHT_SHIFT SEMI  &kp APOS
 &kp LSHFT  &kp Z              &kp X                &kp C            &kp V            &kp B     &kp N   &kp M             &kp COMMA         &kp PERIOD            &kp FSLH               &kp RSHFT
-           &kp LGUI           &kp LEFT_CONTROL     &kp LEFT_ALT     &kp SPACE        &mo 1     &mo 2   &kp SPACE         &kp LGUI          &kp LEFT              &kp RIGHT
+           &kp LGUI           &kp LEFT_CONTROL     &kp LEFT_ALT     &kp RET          &mo 1     &mo 2   &kp SPACE         &kp LGUI          &kp LEFT              &kp RIGHT
             >;
         };
 
-        num {
+        func {
             bindings = <
 &kp F11   &kp F1          &kp F2            &kp F3        &kp F4        &kp F5           &kp F6     &kp F7         &kp F8            &kp F9             &kp F10          &kp PRINTSCREEN
 &kp F12   &kp ESC         &kp BACKSPACE     &kp TAB       &kp ENTER     &kp DEL          &kp GRAVE  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH    &kp BACKSPACE
@@ -213,7 +220,7 @@
             >;
         };
 
-        fn {
+        media {
             bindings = <
 &none  &none    &none   &none   &none   &none             &none  &none       &none         &none         &none         &none
 &none  &kp F12  &kp F7  &kp F8  &kp F9  &soft_off         &bt2   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_UP  &none
@@ -225,11 +232,21 @@
 
         gaming {
             bindings = <
+&kp ESC    &kp N1    &kp N2            &kp N3        &kp N4     &kp N5    &kp N6  &kp N7     &kp N8     &kp N9            &kp N0         &kp MINUS
+&kp TAB    &kp Q     &kp W             &kp E         &kp R      &kp T     &kp Y   &kp U      &kp I      &kp O             &kp P          &kp BSPC
+&kp LCTRL  &kp A     &kp S             &kp D         &kp F      &kp G     &kp H   &kp J      &kp K      &kp L             &kp SEMICOLON  &kp APOS
+&kp LSHFT  &kp Z     &kp X             &kp C         &kp V      &kp B     &kp N   &kp M      &kp COMMA  &kp PERIOD        &kp FSLH       &kp RSHFT
+           &kp LGUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &mo 1     &mo 2   &kp SPACE  &kp LGUI   &kp LEFT_CONTROL  &sl 0
+            >;
+        };
+
+        gaming_old {
+            bindings = <
 &kp ESC    &kp N1     &kp N2  &kp N3  &kp N4     &kp N5    &kp N6  &kp N7     &kp N8     &kp N9    &kp N0     &kp MINUS
 &kp CAPS   &kp TAB    &kp Q   &kp W   &kp E      &kp R     &kp Y   &kp U      &kp I      &kp O     &kp P      &kp BSPC
 &kp ENTER  &kp LSHFT  &kp A   &kp S   &kp D      &kp F     &kp H   &kp J      &kp K      &kp L     &kp SEMI   &kp APOS
 &kp LBKT   &kp LCTRL  &kp Z   &kp X   &kp C      &kp V     &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH   &kp RBKT
-           &kp T      &kp G   &kp B   &kp SPACE  &mo 4     &mo 2   &kp LSHFT  &kp LGUI   &kp LALT  &kp LCTRL
+           &kp T      &kp G   &kp B   &kp SPACE  &mo 1     &mo 2   &kp LSHFT  &kp LGUI   &kp LALT  &kp LCTRL
             >;
         };
 
