@@ -18,13 +18,6 @@
             layers = <2>;
         };
 
-        Combo_Backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <27 28>;
-            timeout-ms = <35>;
-            require-prior-idle-ms = <125>;
-        };
-
         Combo_Enter {
             bindings = <&kp ENTER>;
             key-positions = <32 33>;
@@ -92,6 +85,11 @@
         Combo_PgDn {
             bindings = <&kp PAGE_DOWN>;
             key-positions = <40 41>;
+        };
+
+        Combo_MO1 {
+            bindings = <&mo 1>;
+            key-positions = <27 28>;
         };
     };
 
@@ -211,10 +209,10 @@
         base {
             bindings = <
 &kp ESC    &kp N1             &kp N2               &kp N3           &kp N4           &kp N5    &kp N6  &kp N7            &kp N8            &kp N9                &kp N0                 &kp MINUS
-&kp TAB    &kp Q              &kp W                &kp E            &kp R            &kp T     &kp Y   &kp U             &kp I             &kp O                 &kp P                  &kp BSPC
+&kp TAB    &kp Q              &kp W                &kp E            &kp R            &kp T     &kp Y   &kp U             &kp I             &kp O                 &kp P                  &kp BACKSLASH
 &kp LCTRL  &HML LEFT_SHIFT A  &HML LEFT_CONTROL S  &HML LEFT_ALT D  &HML LEFT_GUI F  &kp G     &kp H   &HMR RIGHT_GUI J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HMR RIGHT_SHIFT SEMI  &kp APOS
 &kp LSHFT  &kp Z              &kp X                &kp C            &kp V            &kp B     &kp N   &kp M             &kp COMMA         &kp PERIOD            &kp FSLH               &kp RSHFT
-           &kp LGUI           &kp LEFT_CONTROL     &kp LEFT_ALT     &kp RET          &mo 1     &mo 2   &kp SPACE         &kp LGUI          &kp LEFT              &kp RIGHT
+           &kp LGUI           &kp LEFT_CONTROL     &kp LEFT_ALT     &kp BACKSPACE    &mo 1     &mo 2   &kp SPACE         &kp LGUI          &kp LEFT              &kp RIGHT
             >;
         };
 
