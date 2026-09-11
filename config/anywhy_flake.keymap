@@ -69,12 +69,12 @@
 
         Combo_Home {
             bindings = <&kp HOME>;
-            key-positions = <31 32>;
+            key-positions = <31 30>;
         };
 
         Combo_End {
             bindings = <&kp END>;
-            key-positions = <44 43>;
+            key-positions = <43 42>;
         };
 
         Combo_PgUp {
@@ -89,7 +89,7 @@
 
         Combo_Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <27 28>;
+            key-positions = <31 32>;
         };
     };
 
