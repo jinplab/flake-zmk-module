@@ -208,31 +208,31 @@
 
         base {
             bindings = <
-&kp ESC    &kp N1             &kp N2               &kp N3           &kp N4           &kp N5    &kp N6  &kp N7            &kp N8            &kp N9                &kp N0                 &kp BACKSLASH
-&kp TAB    &kp Q              &kp W                &kp E            &kp R            &kp T     &kp Y   &kp U             &kp I             &kp O                 &kp P                  &kp BACKSPACE
-&kp LCTRL  &HML LEFT_SHIFT A  &HML LEFT_CONTROL S  &HML LEFT_ALT D  &HML LEFT_GUI F  &kp G     &kp H   &HMR RIGHT_GUI J  &HMR RIGHT_ALT K  &HMR RIGHT_CONTROL L  &HMR RIGHT_SHIFT SEMI  &kp APOS
-&kp LSHFT  &kp Z              &kp X                &kp C            &kp V            &kp B     &kp N   &kp M             &kp COMMA         &kp PERIOD            &kp FSLH               &kp RSHFT
-           &kp LGUI           &kp LEFT_CONTROL     &kp LEFT_ALT     &kp RET          &mo 1     &mo 2   &kp SPACE         &kp LGUI          &kp LEFT              &kp RIGHT
+&kp ESC    &kp N1           &kp N2            &kp N3               &kp N4             &kp N5    &kp N6  &kp N7              &kp N8                &kp N9            &kp N0               &kp BACKSLASH
+&kp TAB    &kp Q            &kp W             &kp E                &kp R              &kp T     &kp Y   &kp U               &kp I                 &kp O             &kp P                &kp BACKSPACE
+&kp LCTRL  &HML LEFT_GUI A  &HML LEFT_ALT S   &HML LEFT_CONTROL D  &HML LEFT_SHIFT F  &kp G     &kp H   &HMR RIGHT_SHIFT J  &HMR RIGHT_CONTROL K  &HMR RIGHT_ALT L  &HMR RIGHT_GUI SEMI  &kp APOS
+&kp LSHFT  &kp Z            &kp X             &kp C                &kp V              &kp B     &kp N   &kp M               &kp COMMA             &kp PERIOD        &kp FSLH             &kp RSHFT
+           &kp LGUI         &kp LEFT_CONTROL  &kp LEFT_ALT         &kp RET            &mo 1     &mo 2   &kp SPACE           &kp LGUI              &kp LEFT          &kp RIGHT
             >;
         };
 
         func {
             bindings = <
-&kp F11   &kp F1          &kp F2            &kp F3        &kp F4        &kp F5           &kp F6     &kp F7         &kp F8         &kp F9             &kp F10            &kp PRINTSCREEN
-&kp F12   &kp ESCAPE      &kp BACKSPACE     &kp TAB       &kp ENTER     &kp DEL          &kp GRAVE  &kp MINUS      &kp EQUAL      &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp BACKSPACE
-&kp HOME  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp PAGE_UP      &kp HOME   &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT    &kp PAGE_UP
-&kp END   &kp LEFT        &kp DOWN          &kp UP_ARROW  &kp RIGHT     &kp PAGE_DOWN    &kp END    &kp LEFT       &kp DOWN       &kp UP_ARROW       &kp RIGHT          &kp PAGE_DOWN
-          &trans          &trans            &trans        &trans        &none            &none      &trans         &trans         &trans             &trans
+&kp F11   &kp F1        &kp F2         &kp F3            &kp F4          &kp F5           &kp F6     &kp F7           &kp F8             &kp F9            &kp F10            &kp PRINTSCREEN
+&kp F12   &kp ESCAPE    &kp BACKSPACE  &kp TAB           &kp ENTER       &kp DEL          &kp GRAVE  &kp MINUS        &kp EQUAL          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
+&kp HOME  &kp LEFT_GUI  &kp LEFT_ALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp PAGE_UP      &kp HOME   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT     &kp RIGHT_GUI      &kp PAGE_UP
+&kp END   &kp LEFT      &kp DOWN       &kp UP_ARROW      &kp RIGHT       &kp PAGE_DOWN    &kp END    &kp LEFT         &kp DOWN           &kp UP_ARROW      &kp RIGHT          &kp PAGE_DOWN
+          &trans        &trans         &trans            &trans          &none            &none      &trans           &trans             &trans            &trans
             >;
         };
 
         media {
             bindings = <
-&none  &none    &none   &none   &none   &none             &none  &none          &none          &none              &none            &none
-&none  &kp F12  &kp F7  &kp F8  &kp F9  &soft_off         &bt2   &kp C_MUTE     &kp C_VOL_DN   &kp C_VOL_UP       &kp C_BRI_UP     &kp SQT
-&none  &kp F10  &kp F4  &kp F5  &kp F6  &kp CAPS          &bt1   &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp PAGE_UP
-&none  &kp F11  &kp F1  &kp F2  &kp F3  &studio_unlock    &bt0   &kp C_PP       &kp C_PREV     &kp C_NEXT         &kp C_BRI_DN     &kp PAGE_DOWN
-       &trans   &trans  &trans  &trans  &none             &none  &trans         &trans         &trans             &trans
+&none  &none    &none   &none   &none   &none             &none  &none            &none              &none          &none          &none
+&none  &kp F12  &kp F7  &kp F8  &kp F9  &soft_off         &bt2   &kp C_MUTE       &kp C_VOL_DN       &kp C_VOL_UP   &kp C_BRI_UP   &kp SQT
+&none  &kp F10  &kp F4  &kp F5  &kp F6  &kp CAPS          &bt1   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp PAGE_UP
+&none  &kp F11  &kp F1  &kp F2  &kp F3  &studio_unlock    &bt0   &kp C_PP         &kp C_PREV         &kp C_NEXT     &kp C_BRI_DN   &kp PAGE_DOWN
+       &trans   &trans  &trans  &trans  &none             &none  &trans           &trans             &trans         &trans
             >;
         };
 
