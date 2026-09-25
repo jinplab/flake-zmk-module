@@ -28,7 +28,7 @@
 
         Combo_Del {
             bindings = <&kp DELETE>;
-            key-positions = <39 38>;
+            key-positions = <43 44>;
             timeout-ms = <35>;
             require-prior-idle-ms = <125>;
         };
