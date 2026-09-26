@@ -54,8 +54,8 @@
             require-prior-idle-ms = <125>;
         };
 
-        Enter_Gaming {
-            bindings = <&to 4>;
+        Enter_Mac {
+            bindings = <&tog 3>;
             key-positions = <26 15 28>;
             timeout-ms = <30>;
             require-prior-idle-ms = <125>;
