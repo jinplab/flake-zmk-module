@@ -63,22 +63,22 @@
 
         Combo_Home {
             bindings = <&kp HOME>;
-            key-positions = <27 28>;
+            key-positions = <30 31>;
         };
 
         Combo_End {
             bindings = <&kp END>;
-            key-positions = <39 40>;
+            key-positions = <42 43>;
         };
 
         Combo_PgUp {
             bindings = <&kp PAGE_UP>;
-            key-positions = <30 31>;
+            key-positions = <29 28>;
         };
 
         Combo_PgDn {
             bindings = <&kp PAGE_DOWN>;
-            key-positions = <42 43>;
+            key-positions = <41 40>;
         };
 
         Combo_Backspace {
@@ -89,16 +89,6 @@
         Combo_Tab {
             bindings = <&kp TAB>;
             key-positions = <26 27>;
-        };
-
-        Combo_PgUp1 {
-            bindings = <&kp PAGE_UP>;
-            key-positions = <28 29>;
-        };
-
-        Combo_PgDn1 {
-            bindings = <&kp PAGE_DOWN>;
-            key-positions = <40 41>;
         };
 
         Enter_Mouse {
