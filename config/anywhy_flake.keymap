@@ -90,6 +90,16 @@
             bindings = <&kp TAB>;
             key-positions = <26 27>;
         };
+
+        Combo_PgUp1 {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <28 29>;
+        };
+
+        Combo_PgDn1 {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <40 41>;
+        };
     };
 
     macros {
